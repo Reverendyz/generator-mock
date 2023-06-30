@@ -1,0 +1,1142 @@
+{
+  "type": "File",
+  "start": 0,
+  "end": 642,
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0,
+      "index": 0
+    },
+    "end": {
+      "line": 24,
+      "column": 1,
+      "index": 642
+    }
+  },
+  "errors": [],
+  "program": {
+    "type": "Program",
+    "start": 0,
+    "end": 642,
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0,
+        "index": 0
+      },
+      "end": {
+        "line": 24,
+        "column": 1,
+        "index": 642
+      }
+    },
+    "sourceType": "module",
+    "interpreter": null,
+    "body": [
+      {
+        "type": "ImportDeclaration",
+        "start": 0,
+        "end": 71,
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0,
+            "index": 0
+          },
+          "end": {
+            "line": 1,
+            "column": 71,
+            "index": 71
+          }
+        },
+        "specifiers": [
+          {
+            "type": "ImportSpecifier",
+            "start": 9,
+            "end": 28,
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 9,
+                "index": 9
+              },
+              "end": {
+                "line": 1,
+                "column": 28,
+                "index": 28
+              }
+            },
+            "imported": {
+              "type": "Identifier",
+              "start": 9,
+              "end": 28,
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 9,
+                  "index": 9
+                },
+                "end": {
+                  "line": 1,
+                  "column": 28,
+                  "index": 28
+                },
+                "identifierName": "createBrowserRouter"
+              },
+              "name": "createBrowserRouter"
+            },
+            "local": {
+              "type": "Identifier",
+              "start": 9,
+              "end": 28,
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 9,
+                  "index": 9
+                },
+                "end": {
+                  "line": 1,
+                  "column": 28,
+                  "index": 28
+                },
+                "identifierName": "createBrowserRouter"
+              },
+              "name": "createBrowserRouter"
+            }
+          },
+          {
+            "type": "ImportSpecifier",
+            "start": 30,
+            "end": 44,
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 30,
+                "index": 30
+              },
+              "end": {
+                "line": 1,
+                "column": 44,
+                "index": 44
+              }
+            },
+            "imported": {
+              "type": "Identifier",
+              "start": 30,
+              "end": 44,
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 30,
+                  "index": 30
+                },
+                "end": {
+                  "line": 1,
+                  "column": 44,
+                  "index": 44
+                },
+                "identifierName": "RouterProvider"
+              },
+              "name": "RouterProvider"
+            },
+            "local": {
+              "type": "Identifier",
+              "start": 30,
+              "end": 44,
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 30,
+                  "index": 30
+                },
+                "end": {
+                  "line": 1,
+                  "column": 44,
+                  "index": 44
+                },
+                "identifierName": "RouterProvider"
+              },
+              "name": "RouterProvider"
+            }
+          }
+        ],
+        "source": {
+          "type": "StringLiteral",
+          "start": 52,
+          "end": 70,
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 52,
+              "index": 52
+            },
+            "end": {
+              "line": 1,
+              "column": 70,
+              "index": 70
+            }
+          },
+          "extra": {
+            "rawValue": "react-router-dom",
+            "raw": "\"react-router-dom\""
+          },
+          "value": "react-router-dom"
+        }
+      },
+      {
+        "type": "ExportDefaultDeclaration",
+        "start": 73,
+        "end": 642,
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 0,
+            "index": 73
+          },
+          "end": {
+            "line": 24,
+            "column": 1,
+            "index": 642
+          }
+        },
+        "declaration": {
+          "type": "FunctionDeclaration",
+          "start": 88,
+          "end": 642,
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 15,
+              "index": 88
+            },
+            "end": {
+              "line": 24,
+              "column": 1,
+              "index": 642
+            }
+          },
+          "id": {
+            "type": "Identifier",
+            "start": 97,
+            "end": 103,
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 24,
+                "index": 97
+              },
+              "end": {
+                "line": 3,
+                "column": 30,
+                "index": 103
+              },
+              "identifierName": "Router"
+            },
+            "name": "Router"
+          },
+          "generator": false,
+          "async": false,
+          "params": [],
+          "body": {
+            "type": "BlockStatement",
+            "start": 106,
+            "end": 642,
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 33,
+                "index": 106
+              },
+              "end": {
+                "line": 24,
+                "column": 1,
+                "index": 642
+              }
+            },
+            "body": [
+              {
+                "type": "VariableDeclaration",
+                "start": 112,
+                "end": 640,
+                "loc": {
+                  "start": {
+                    "line": 4,
+                    "column": 4,
+                    "index": 112
+                  },
+                  "end": {
+                    "line": 23,
+                    "column": 7,
+                    "index": 640
+                  }
+                },
+                "declarations": [
+                  {
+                    "type": "VariableDeclarator",
+                    "start": 118,
+                    "end": 639,
+                    "loc": {
+                      "start": {
+                        "line": 4,
+                        "column": 10,
+                        "index": 118
+                      },
+                      "end": {
+                        "line": 23,
+                        "column": 6,
+                        "index": 639
+                      }
+                    },
+                    "id": {
+                      "type": "Identifier",
+                      "start": 118,
+                      "end": 124,
+                      "loc": {
+                        "start": {
+                          "line": 4,
+                          "column": 10,
+                          "index": 118
+                        },
+                        "end": {
+                          "line": 4,
+                          "column": 16,
+                          "index": 124
+                        },
+                        "identifierName": "router"
+                      },
+                      "name": "router"
+                    },
+                    "init": {
+                      "type": "CallExpression",
+                      "start": 127,
+                      "end": 639,
+                      "loc": {
+                        "start": {
+                          "line": 4,
+                          "column": 19,
+                          "index": 127
+                        },
+                        "end": {
+                          "line": 23,
+                          "column": 6,
+                          "index": 639
+                        }
+                      },
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 127,
+                        "end": 146,
+                        "loc": {
+                          "start": {
+                            "line": 4,
+                            "column": 19,
+                            "index": 127
+                          },
+                          "end": {
+                            "line": 4,
+                            "column": 38,
+                            "index": 146
+                          },
+                          "identifierName": "createBrowserRouter"
+                        },
+                        "name": "createBrowserRouter"
+                      },
+                      "arguments": [
+                        {
+                          "type": "ArrayExpression",
+                          "start": 147,
+                          "end": 638,
+                          "loc": {
+                            "start": {
+                              "line": 4,
+                              "column": 39,
+                              "index": 147
+                            },
+                            "end": {
+                              "line": 23,
+                              "column": 5,
+                              "index": 638
+                            }
+                          },
+                          "elements": [
+                            {
+                              "type": "ObjectExpression",
+                              "start": 157,
+                              "end": 632,
+                              "loc": {
+                                "start": {
+                                  "line": 5,
+                                  "column": 8,
+                                  "index": 157
+                                },
+                                "end": {
+                                  "line": 22,
+                                  "column": 9,
+                                  "index": 632
+                                }
+                              },
+                              "properties": [
+                                {
+                                  "type": "ObjectProperty",
+                                  "start": 171,
+                                  "end": 180,
+                                  "loc": {
+                                    "start": {
+                                      "line": 6,
+                                      "column": 12,
+                                      "index": 171
+                                    },
+                                    "end": {
+                                      "line": 6,
+                                      "column": 21,
+                                      "index": 180
+                                    }
+                                  },
+                                  "method": false,
+                                  "key": {
+                                    "type": "Identifier",
+                                    "start": 171,
+                                    "end": 175,
+                                    "loc": {
+                                      "start": {
+                                        "line": 6,
+                                        "column": 12,
+                                        "index": 171
+                                      },
+                                      "end": {
+                                        "line": 6,
+                                        "column": 16,
+                                        "index": 175
+                                      },
+                                      "identifierName": "path"
+                                    },
+                                    "name": "path"
+                                  },
+                                  "computed": false,
+                                  "shorthand": false,
+                                  "value": {
+                                    "type": "StringLiteral",
+                                    "start": 177,
+                                    "end": 180,
+                                    "loc": {
+                                      "start": {
+                                        "line": 6,
+                                        "column": 18,
+                                        "index": 177
+                                      },
+                                      "end": {
+                                        "line": 6,
+                                        "column": 21,
+                                        "index": 180
+                                      }
+                                    },
+                                    "extra": {
+                                      "rawValue": "/",
+                                      "raw": "\"/\""
+                                    },
+                                    "value": "/"
+                                  }
+                                },
+                                {
+                                  "type": "ObjectProperty",
+                                  "start": 194,
+                                  "end": 209,
+                                  "loc": {
+                                    "start": {
+                                      "line": 7,
+                                      "column": 12,
+                                      "index": 194
+                                    },
+                                    "end": {
+                                      "line": 7,
+                                      "column": 27,
+                                      "index": 209
+                                    }
+                                  },
+                                  "method": false,
+                                  "key": {
+                                    "type": "Identifier",
+                                    "start": 194,
+                                    "end": 201,
+                                    "loc": {
+                                      "start": {
+                                        "line": 7,
+                                        "column": 12,
+                                        "index": 194
+                                      },
+                                      "end": {
+                                        "line": 7,
+                                        "column": 19,
+                                        "index": 201
+                                      },
+                                      "identifierName": "element"
+                                    },
+                                    "name": "element"
+                                  },
+                                  "computed": false,
+                                  "shorthand": false,
+                                  "value": {
+                                    "type": "JSXElement",
+                                    "start": 203,
+                                    "end": 209,
+                                    "loc": {
+                                      "start": {
+                                        "line": 7,
+                                        "column": 21,
+                                        "index": 203
+                                      },
+                                      "end": {
+                                        "line": 7,
+                                        "column": 27,
+                                        "index": 209
+                                      }
+                                    },
+                                    "openingElement": {
+                                      "type": "JSXOpeningElement",
+                                      "start": 203,
+                                      "end": 209,
+                                      "loc": {
+                                        "start": {
+                                          "line": 7,
+                                          "column": 21,
+                                          "index": 203
+                                        },
+                                        "end": {
+                                          "line": 7,
+                                          "column": 27,
+                                          "index": 209
+                                        }
+                                      },
+                                      "name": {
+                                        "type": "JSXIdentifier",
+                                        "start": 204,
+                                        "end": 207,
+                                        "loc": {
+                                          "start": {
+                                            "line": 7,
+                                            "column": 22,
+                                            "index": 204
+                                          },
+                                          "end": {
+                                            "line": 7,
+                                            "column": 25,
+                                            "index": 207
+                                          }
+                                        },
+                                        "name": "App"
+                                      },
+                                      "attributes": [],
+                                      "selfClosing": true
+                                    },
+                                    "closingElement": null,
+                                    "children": []
+                                  }
+                                },
+                                {
+                                  "type": "ObjectProperty",
+                                  "start": 223,
+                                  "end": 622,
+                                  "loc": {
+                                    "start": {
+                                      "line": 8,
+                                      "column": 12,
+                                      "index": 223
+                                    },
+                                    "end": {
+                                      "line": 21,
+                                      "column": 13,
+                                      "index": 622
+                                    }
+                                  },
+                                  "method": false,
+                                  "key": {
+                                    "type": "Identifier",
+                                    "start": 223,
+                                    "end": 231,
+                                    "loc": {
+                                      "start": {
+                                        "line": 8,
+                                        "column": 12,
+                                        "index": 223
+                                      },
+                                      "end": {
+                                        "line": 8,
+                                        "column": 20,
+                                        "index": 231
+                                      },
+                                      "identifierName": "children"
+                                    },
+                                    "name": "children"
+                                  },
+                                  "computed": false,
+                                  "shorthand": false,
+                                  "value": {
+                                    "type": "ArrayExpression",
+                                    "start": 233,
+                                    "end": 622,
+                                    "loc": {
+                                      "start": {
+                                        "line": 8,
+                                        "column": 22,
+                                        "index": 233
+                                      },
+                                      "end": {
+                                        "line": 21,
+                                        "column": 13,
+                                        "index": 622
+                                      }
+                                    },
+                                    "elements": [
+                                      {
+                                        "type": "ObjectExpression",
+                                        "start": 251,
+                                        "end": 347,
+                                        "loc": {
+                                          "start": {
+                                            "line": 9,
+                                            "column": 16,
+                                            "index": 251
+                                          },
+                                          "end": {
+                                            "line": 12,
+                                            "column": 17,
+                                            "index": 347
+                                          }
+                                        },
+                                        "properties": [
+                                          {
+                                            "type": "ObjectProperty",
+                                            "start": 273,
+                                            "end": 282,
+                                            "loc": {
+                                              "start": {
+                                                "line": 10,
+                                                "column": 20,
+                                                "index": 273
+                                              },
+                                              "end": {
+                                                "line": 10,
+                                                "column": 29,
+                                                "index": 282
+                                              }
+                                            },
+                                            "method": false,
+                                            "key": {
+                                              "type": "Identifier",
+                                              "start": 273,
+                                              "end": 277,
+                                              "loc": {
+                                                "start": {
+                                                  "line": 10,
+                                                  "column": 20,
+                                                  "index": 273
+                                                },
+                                                "end": {
+                                                  "line": 10,
+                                                  "column": 24,
+                                                  "index": 277
+                                                },
+                                                "identifierName": "path"
+                                              },
+                                              "name": "path"
+                                            },
+                                            "computed": false,
+                                            "shorthand": false,
+                                            "value": {
+                                              "type": "StringLiteral",
+                                              "start": 279,
+                                              "end": 282,
+                                              "loc": {
+                                                "start": {
+                                                  "line": 10,
+                                                  "column": 26,
+                                                  "index": 279
+                                                },
+                                                "end": {
+                                                  "line": 10,
+                                                  "column": 29,
+                                                  "index": 282
+                                                }
+                                              },
+                                              "extra": {
+                                                "rawValue": "/",
+                                                "raw": "\"/\""
+                                              },
+                                              "value": "/"
+                                            }
+                                          },
+                                          {
+                                            "type": "ObjectProperty",
+                                            "start": 304,
+                                            "end": 329,
+                                            "loc": {
+                                              "start": {
+                                                "line": 11,
+                                                "column": 20,
+                                                "index": 304
+                                              },
+                                              "end": {
+                                                "line": 11,
+                                                "column": 45,
+                                                "index": 329
+                                              }
+                                            },
+                                            "method": false,
+                                            "key": {
+                                              "type": "Identifier",
+                                              "start": 304,
+                                              "end": 311,
+                                              "loc": {
+                                                "start": {
+                                                  "line": 11,
+                                                  "column": 20,
+                                                  "index": 304
+                                                },
+                                                "end": {
+                                                  "line": 11,
+                                                  "column": 27,
+                                                  "index": 311
+                                                },
+                                                "identifierName": "element"
+                                              },
+                                              "name": "element"
+                                            },
+                                            "computed": false,
+                                            "shorthand": false,
+                                            "value": {
+                                              "type": "JSXElement",
+                                              "start": 313,
+                                              "end": 329,
+                                              "loc": {
+                                                "start": {
+                                                  "line": 11,
+                                                  "column": 29,
+                                                  "index": 313
+                                                },
+                                                "end": {
+                                                  "line": 11,
+                                                  "column": 45,
+                                                  "index": 329
+                                                }
+                                              },
+                                              "openingElement": {
+                                                "type": "JSXOpeningElement",
+                                                "start": 313,
+                                                "end": 329,
+                                                "loc": {
+                                                  "start": {
+                                                    "line": 11,
+                                                    "column": 29,
+                                                    "index": 313
+                                                  },
+                                                  "end": {
+                                                    "line": 11,
+                                                    "column": 45,
+                                                    "index": 329
+                                                  }
+                                                },
+                                                "name": {
+                                                  "type": "JSXIdentifier",
+                                                  "start": 314,
+                                                  "end": 327,
+                                                  "loc": {
+                                                    "start": {
+                                                      "line": 11,
+                                                      "column": 30,
+                                                      "index": 314
+                                                    },
+                                                    "end": {
+                                                      "line": 11,
+                                                      "column": 43,
+                                                      "index": 327
+                                                    }
+                                                  },
+                                                  "name": "PortalCatalog"
+                                                },
+                                                "attributes": [],
+                                                "selfClosing": true
+                                              },
+                                              "closingElement": null,
+                                              "children": []
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "ObjectExpression",
+                                        "start": 365,
+                                        "end": 470,
+                                        "loc": {
+                                          "start": {
+                                            "line": 13,
+                                            "column": 16,
+                                            "index": 365
+                                          },
+                                          "end": {
+                                            "line": 16,
+                                            "column": 17,
+                                            "index": 470
+                                          }
+                                        },
+                                        "properties": [
+                                          {
+                                            "type": "ObjectProperty",
+                                            "start": 387,
+                                            "end": 404,
+                                            "loc": {
+                                              "start": {
+                                                "line": 14,
+                                                "column": 20,
+                                                "index": 387
+                                              },
+                                              "end": {
+                                                "line": 14,
+                                                "column": 37,
+                                                "index": 404
+                                              }
+                                            },
+                                            "method": false,
+                                            "key": {
+                                              "type": "Identifier",
+                                              "start": 387,
+                                              "end": 391,
+                                              "loc": {
+                                                "start": {
+                                                  "line": 14,
+                                                  "column": 20,
+                                                  "index": 387
+                                                },
+                                                "end": {
+                                                  "line": 14,
+                                                  "column": 24,
+                                                  "index": 391
+                                                },
+                                                "identifierName": "path"
+                                              },
+                                              "name": "path"
+                                            },
+                                            "computed": false,
+                                            "shorthand": false,
+                                            "value": {
+                                              "type": "StringLiteral",
+                                              "start": 393,
+                                              "end": 404,
+                                              "loc": {
+                                                "start": {
+                                                  "line": 14,
+                                                  "column": 26,
+                                                  "index": 393
+                                                },
+                                                "end": {
+                                                  "line": 14,
+                                                  "column": 37,
+                                                  "index": 404
+                                                }
+                                              },
+                                              "extra": {
+                                                "rawValue": "/services",
+                                                "raw": "\"/services\""
+                                              },
+                                              "value": "/services"
+                                            }
+                                          },
+                                          {
+                                            "type": "ObjectProperty",
+                                            "start": 426,
+                                            "end": 451,
+                                            "loc": {
+                                              "start": {
+                                                "line": 15,
+                                                "column": 20,
+                                                "index": 426
+                                              },
+                                              "end": {
+                                                "line": 15,
+                                                "column": 45,
+                                                "index": 451
+                                              }
+                                            },
+                                            "method": false,
+                                            "key": {
+                                              "type": "Identifier",
+                                              "start": 426,
+                                              "end": 433,
+                                              "loc": {
+                                                "start": {
+                                                  "line": 15,
+                                                  "column": 20,
+                                                  "index": 426
+                                                },
+                                                "end": {
+                                                  "line": 15,
+                                                  "column": 27,
+                                                  "index": 433
+                                                },
+                                                "identifierName": "element"
+                                              },
+                                              "name": "element"
+                                            },
+                                            "computed": false,
+                                            "shorthand": false,
+                                            "value": {
+                                              "type": "JSXElement",
+                                              "start": 435,
+                                              "end": 451,
+                                              "loc": {
+                                                "start": {
+                                                  "line": 15,
+                                                  "column": 29,
+                                                  "index": 435
+                                                },
+                                                "end": {
+                                                  "line": 15,
+                                                  "column": 45,
+                                                  "index": 451
+                                                }
+                                              },
+                                              "openingElement": {
+                                                "type": "JSXOpeningElement",
+                                                "start": 435,
+                                                "end": 451,
+                                                "loc": {
+                                                  "start": {
+                                                    "line": 15,
+                                                    "column": 29,
+                                                    "index": 435
+                                                  },
+                                                  "end": {
+                                                    "line": 15,
+                                                    "column": 45,
+                                                    "index": 451
+                                                  }
+                                                },
+                                                "name": {
+                                                  "type": "JSXIdentifier",
+                                                  "start": 436,
+                                                  "end": 449,
+                                                  "loc": {
+                                                    "start": {
+                                                      "line": 15,
+                                                      "column": 30,
+                                                      "index": 436
+                                                    },
+                                                    "end": {
+                                                      "line": 15,
+                                                      "column": 43,
+                                                      "index": 449
+                                                    }
+                                                  },
+                                                  "name": "PortalCatalog"
+                                                },
+                                                "attributes": [],
+                                                "selfClosing": true
+                                              },
+                                              "closingElement": null,
+                                              "children": []
+                                            }
+                                          }
+                                        ],
+                                        "extra": {
+                                          "trailingComma": 451
+                                        }
+                                      },
+                                      {
+                                        "type": "ObjectExpression",
+                                        "start": 488,
+                                        "end": 608,
+                                        "loc": {
+                                          "start": {
+                                            "line": 17,
+                                            "column": 16,
+                                            "index": 488
+                                          },
+                                          "end": {
+                                            "line": 20,
+                                            "column": 17,
+                                            "index": 608
+                                          }
+                                        },
+                                        "properties": [
+                                          {
+                                            "type": "ObjectProperty",
+                                            "start": 510,
+                                            "end": 535,
+                                            "loc": {
+                                              "start": {
+                                                "line": 18,
+                                                "column": 20,
+                                                "index": 510
+                                              },
+                                              "end": {
+                                                "line": 18,
+                                                "column": 45,
+                                                "index": 535
+                                              }
+                                            },
+                                            "method": false,
+                                            "key": {
+                                              "type": "Identifier",
+                                              "start": 510,
+                                              "end": 514,
+                                              "loc": {
+                                                "start": {
+                                                  "line": 18,
+                                                  "column": 20,
+                                                  "index": 510
+                                                },
+                                                "end": {
+                                                  "line": 18,
+                                                  "column": 24,
+                                                  "index": 514
+                                                },
+                                                "identifierName": "path"
+                                              },
+                                              "name": "path"
+                                            },
+                                            "computed": false,
+                                            "shorthand": false,
+                                            "value": {
+                                              "type": "StringLiteral",
+                                              "start": 515,
+                                              "end": 535,
+                                              "loc": {
+                                                "start": {
+                                                  "line": 18,
+                                                  "column": 25,
+                                                  "index": 515
+                                                },
+                                                "end": {
+                                                  "line": 18,
+                                                  "column": 45,
+                                                  "index": 535
+                                                }
+                                              },
+                                              "extra": {
+                                                "rawValue": "/services/renovate",
+                                                "raw": "\"/services/renovate\""
+                                              },
+                                              "value": "/services/renovate"
+                                            }
+                                          },
+                                          {
+                                            "type": "ObjectProperty",
+                                            "start": 557,
+                                            "end": 590,
+                                            "loc": {
+                                              "start": {
+                                                "line": 19,
+                                                "column": 20,
+                                                "index": 557
+                                              },
+                                              "end": {
+                                                "line": 19,
+                                                "column": 53,
+                                                "index": 590
+                                              }
+                                            },
+                                            "method": false,
+                                            "key": {
+                                              "type": "Identifier",
+                                              "start": 557,
+                                              "end": 564,
+                                              "loc": {
+                                                "start": {
+                                                  "line": 19,
+                                                  "column": 20,
+                                                  "index": 557
+                                                },
+                                                "end": {
+                                                  "line": 19,
+                                                  "column": 27,
+                                                  "index": 564
+                                                },
+                                                "identifierName": "element"
+                                              },
+                                              "name": "element"
+                                            },
+                                            "computed": false,
+                                            "shorthand": false,
+                                            "value": {
+                                              "type": "JSXElement",
+                                              "start": 566,
+                                              "end": 590,
+                                              "loc": {
+                                                "start": {
+                                                  "line": 19,
+                                                  "column": 29,
+                                                  "index": 566
+                                                },
+                                                "end": {
+                                                  "line": 19,
+                                                  "column": 53,
+                                                  "index": 590
+                                                }
+                                              },
+                                              "openingElement": {
+                                                "type": "JSXOpeningElement",
+                                                "start": 566,
+                                                "end": 590,
+                                                "loc": {
+                                                  "start": {
+                                                    "line": 19,
+                                                    "column": 29,
+                                                    "index": 566
+                                                  },
+                                                  "end": {
+                                                    "line": 19,
+                                                    "column": 53,
+                                                    "index": 590
+                                                  }
+                                                },
+                                                "name": {
+                                                  "type": "JSXIdentifier",
+                                                  "start": 567,
+                                                  "end": 588,
+                                                  "loc": {
+                                                    "start": {
+                                                      "line": 19,
+                                                      "column": 30,
+                                                      "index": 567
+                                                    },
+                                                    "end": {
+                                                      "line": 19,
+                                                      "column": 51,
+                                                      "index": 588
+                                                    }
+                                                  },
+                                                  "name": "RenovateConfigurePage"
+                                                },
+                                                "attributes": [],
+                                                "selfClosing": true
+                                              },
+                                              "closingElement": null,
+                                              "children": []
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "kind": "const"
+              }
+            ],
+            "directives": []
+          }
+        }
+      }
+    ],
+    "directives": []
+  },
+  "comments": []
+}

@@ -1,4 +1,6 @@
 var Generator = require('yeoman-generator');
+var fs = require("fs");
+var babelParser = require('@babel/parser');
 
 const paths = [
   'Card.js.template',
@@ -31,5 +33,19 @@ module.exports = class extends Generator {
         { serviceName: serviceName }
       );
     }) 
+  }
+  readFile(){
+    fs.readFile(this.contextRoot+"/src/Router.js", "utf8", (err, data) => {
+      const ast = babelParser.parse(data, {
+        sourceType: 'module',
+        plugins: ['jsx']}
+        );
+      
+      const json = JSON.stringify(ast, null, 2);
+      fs.writeFile("file.json", json, (err) => {
+        if (err) throw err;
+      })
+
+    });
   }
 };
