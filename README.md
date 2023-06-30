@@ -14,6 +14,7 @@ This repository has only the purpose of documenting some effort to implement a c
 ```sh
 npm install -g yo yeoman-generator
 npm install
+npm link
 ```
 
 ### Create a scaffold
